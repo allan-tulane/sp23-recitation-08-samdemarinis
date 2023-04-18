@@ -16,6 +16,8 @@ and then implement a way to visualize the optimal sequence of edits.
   deletions have the same unit cost. State the optimal substructure property
   for this version of the edit distance problem and modify `MED` accordingly. 
 
+  The optimal substructure property is that we can break the problem into smaller subproblems by splititng the string into smaller sections and adding up the number of edits.
+
 
 **2)** Now implement `fast_MED`, a memoized version of `MED`. Test your implementation code using `test_MED`.
 
